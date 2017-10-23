@@ -1,6 +1,6 @@
 # Conta Cron
 
-Um Script que analisa todos os crons do servidor e com base em pontos definidos, altera para um valor menor.
+Um Script que analisa todos os crons do servidor e com base em pontos definidos e altera caso ultrapasse este valor.
 Pode ser utilizado por exemplo em servidores compartilhados; onde clientes podem criar crons além do permitido ou com períodos muito curtos. 
 Embora não esteja implementado é fácil atribuir a função de enviar um e-mail ou abrir um ticket através de API.
 
