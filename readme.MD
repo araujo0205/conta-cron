@@ -8,18 +8,14 @@ Junto com o script há um cron e uma pasta onde o log está sendo salvo, é nece
 
 ## Variaveis que precisam ser alteradas dependendo do sistema:
 ### no arquivo conta_cron.pl
- - $pasta
-É a localização do arquivo onde estão todos os crons. Em geral fica em */var/spool/cron/*
+ - $pasta: É a localização do arquivo onde estão todos os crons. Em geral fica em */var/spool/cron/*
 ### No arquivo log.pm
- - $file
-É o arquivo onde será salvo os logs
+ - $file: É o arquivo onde será salvo os logs
 
 ## Variaveis adicionais
 ### no arquivo conta_cron.pl
- - $PONTOS_MINUTOS 
-É o multiplicador por cada minuto que o cron é executado
+ - $PONTOS_MINUTOS: É o multiplicador por cada minuto que o cron é executado
 
- - $PONTOS_HORAS_SOMA
-É o multiplicador da soma de execuções por hora. É usado para identificar quando há muitos crons.
+ - $PONTOS_HORAS_SOMA: É o multiplicador da soma de execuções por hora. É usado para identificar quando há muitos crons.
 
 
